@@ -17,8 +17,8 @@
         <maven.compiler.target>1.8</maven.compiler.target>
 
         <!-- customize those two properties. The functionAppName should be unique across Azure -->
-        <functionResourceGroup>cf-tutorial</functionResourceGroup>
-        <functionAppName>cftxnmanager</functionAppName>
+        <functionResourceGroup>AlexMsTesting</functionResourceGroup>
+        <functionAppName>artxnmanager</functionAppName>
         <functionAppRegion>eastus</functionAppRegion>
 
         <stagingDirectory>${project.build.directory}/azure-functions/${functionAppName}</stagingDirectory>
